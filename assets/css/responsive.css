@@ -1,0 +1,26 @@
+
+@media all and (max-width: 740px){
+    .container-main-features{
+        top: 170px;
+    }
+}
+@media all and (max-width: 550px){
+    .container-main-features{
+        top: 270px;
+    }
+}
+@media all and (max-width: 414px){
+    .container-main-features{
+        top: 200px;
+    }
+}
+@media all and (max-width: 375px){
+    .container-main-features{
+        top: 175px;
+    }
+}
+@media all and (max-width: 320px){
+    .container-main-features{
+        top: 150px;
+    }
+}

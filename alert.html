@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e0e0e0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            padding: 0 20px;
+        }
+
+        .box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 1rem;
+        }
+
+        .alert {
+            max-width: 500px;
+            position: absolute;
+            z-index: 99;
+            padding: 1.5rem;
+            border-radius: .5rem;
+            background: rgba(255, 255, 255, 0.30);
+            backdrop-filter: blur(13.0px);
+            -webkit-backdrop-filter: blur(13.0px);
+            border: 2px solid #fff;
+        }
+
+        .lottie {
+            margin: 28rem 2rem 0 2rem;
+
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .button {
+            float: right !important;
+            padding: 2px 10px;
+            border: 2px solid hsl(0, 0%, 81%);
+            background-color: #fff;
+            border-radius: 5px;
+            color: black;
+        }
+
+        ul {
+            margin: 5px 20px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            .lottie {
+                width: 80%;
+                margin: 0;
+                top: 0;
+                bottom: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <lottie-player class="lottie" src="https://assets8.lottiefiles.com/packages/lf20_DyXIVc.json"
+                background="transparent" speed="1" loop autoplay>
+            </lottie-player>
+            <div class="alert">
+                <p>Maaf karena web ini menggunakan hosting gratis jadi ada sedikit masalah ketika input data, jadi ada
+                    sedikit gangguan jika mendaftar atau segala sesuatu mengenai input</p>
+                <p>Untuk login silahkan memakai:</p>
+                <ul>
+                    <li>Username: admin</li>
+                    <li>Passwors: admin</li>
+                </ul>
+                <a href="index" class="button">Ok</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
