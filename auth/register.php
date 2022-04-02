@@ -25,7 +25,7 @@ if($cek > 0){
     $id_user = generate_string($permitted_chars, 7);
 
     function get_alamat($param1, $param2){
-        $json = file_get_contents("../API-indonesia/api/$param1/$param2.json");
+        $json = file_get_contents("http://www.emsifa.com/api-wilayah-indonesia/api/$param1/$param2.json");
         $arr = json_decode($json, TRUE);
         return $arr['name'];
     }

@@ -10,7 +10,7 @@ $kodePos = $_POST['kodePos'];
 $detailAlamat = $_POST['detailAlamat'];
 
     function get_alamat($param1, $param2){
-        $json = file_get_contents("../API-indonesia/api/$param1/$param2.json");
+        $json = file_get_contents("http://www.emsifa.com/api-wilayah-indonesia/api/$param1/$param2.json");
         $arr = json_decode($json, TRUE);
         return $arr['name'];
     }
