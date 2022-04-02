@@ -70,7 +70,7 @@ $noHp = $_POST['noHp'];
                                 </div>
                             </div>
                             <!-- KAB/KOTA -->
-                            <div class="col-md-12 d-none unhide-on-mounted mt-3" id="kabupaten" style="display: none;">
+                            <div class="col-md-12  unhide-on-mounted mt-3" id="kabupaten" style="display: none;">
                                 <div class="form-group mb-0">
                                     <label for="">Pilih Kab/Kota</label>
                                     <select name="kabupaten" class="form-control" required id="listKabupaten">
@@ -79,7 +79,7 @@ $noHp = $_POST['noHp'];
                                 </div>
                             </div>
 
-                            <div class="col-md-12 d-none unhide-on-mounted mt-3" id="kecamatan" style="display: none;">
+                            <div class="col-md-12  unhide-on-mounted mt-3" id="kecamatan" style="display: none;">
                                 <div class="form-group mb-0">
                                     <label for="">Pilih Kecamatan</label>
                                     <select name="kecamatan" class="form-control" required id="listKecamatan">
@@ -88,7 +88,7 @@ $noHp = $_POST['noHp'];
                                 </div>
                             </div>
 
-                            <div class="col-md-12 d-none unhide-on-mounted mt-3" id="kelurahan" style="display: none;">
+                            <div class="col-md-12  unhide-on-mounted mt-3" id="kelurahan" style="display: none;">
                                 <div class="form-group mb-0">
                                     <label for="">Pilih Kelurahan</label>
                                     <select name="kelurahan" class="form-control" required id="listKelurahan">
@@ -97,13 +97,13 @@ $noHp = $_POST['noHp'];
                                 </div>
                             </div>
 
-                            <div class="col-md-12 d-none unhide-on-mounted mt-3" id="kodePos" style="display: none;">
+                            <div class="col-md-12  unhide-on-mounted mt-3" id="kodePos" style="display: none;">
                                 <label for="">Kode POS</label>
                                     <input type="tel" name="kodePos" class="form-control" style="width: 30%;">
                                 </div>
                             </div>
 
-                            <div class="col-md-12 d-none unhide-on-mounted mt-3" id="jalan" style="display: none;">
+                            <div class="col-md-12  unhide-on-mounted mt-3" id="jalan" style="display: none;">
                                 <label for="">Nama Jalan, Rt/Rw</label>
                                 <textarea class="form-control" name="detailAlamat" id="" cols="30" rows="2"
                                     required></textarea>
